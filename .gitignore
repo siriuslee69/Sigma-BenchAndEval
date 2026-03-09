@@ -24,5 +24,8 @@ bin/
 .idea/
 nimble.develop
 nimble.paths
-valk/valkyrie_config.md
-valk/.gitmodules.local
+iron/iron_config.md
+iron/.gitmodules.local
+.iron/.local*
+!.iron/.local*.template
+

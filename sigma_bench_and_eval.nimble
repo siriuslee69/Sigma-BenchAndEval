@@ -16,8 +16,8 @@ task build, "Build smoke test in release mode":
 task test_bench, "Run benchmark compare test":
   exec "nim c --path:src --path:submodules/fylgia/src -d:release -r tests/test_bench_compare.nim"
 
-task autopush, "Add, commit, and push with message from valk/progress.md":
-  let path = "valk/progress.md"
+task autopush, "Add, commit, and push with message from iron/progress.md":
+  let path = "iron/progress.md"
   var msg = ""
   if fileExists(path):
     let content = readFile(path)

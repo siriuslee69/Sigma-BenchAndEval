@@ -45,7 +45,7 @@ This repo is the reusable statistical-evaluation library for binary-sequence ana
 - Preserve the pure-library boundary unless there is an explicit repo-level reason to expand it.
 - Reuse existing helpers before adding new duplicate math or bit logic.
 - Update `README.md` if public behavior, module boundaries, or usage examples change.
-- Update `valk/progress.md` after meaningful repo changes.
+- Update `iron/progress.md` after meaningful repo changes.
 - Run `nimble test` after code changes.
 - Run `nimble test_bench` if benchmark helpers or timing-related code changed.
 

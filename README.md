@@ -23,7 +23,7 @@ NIST-style statistical test suite for binary sequences in Nim.
   - individual statistical tests and shared math/bit helpers.
 - `tests/`
   - smoke and benchmark-comparison coverage.
-- `valk/`
+- `iron/`
   - local repo coordination notes and copied workspace conventions.
 
 ## Main State Types
@@ -110,8 +110,8 @@ Released under [The Unlicense](LICENSE.txt).
 - Keep modules pure and in-memory unless there is a strong repo-level reason to add an external boundary.
 - Preserve the current split between shared helpers, individual tests, and suite orchestration.
 - Keep proc bodies flat where possible and move repeated logic into shared helpers instead of duplicating it.
-- Update `valk/progress.md` and this README when public behavior or repo boundaries change.
-- Follow the full workspace rules in `valk/conventions.md`.
+- Update `iron/progress.md` and this README when public behavior or repo boundaries change.
+- Follow the full workspace rules in `iron/conventions.md`.
 
 ## Issue Playbook
 - Several tests require enough input bits or specific block sizes; invalid or too-short inputs can legitimately return zero-style results instead of useful statistical output.
