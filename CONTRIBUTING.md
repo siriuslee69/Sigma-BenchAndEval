@@ -12,7 +12,7 @@ This repo is the reusable statistical-evaluation library for binary-sequence ana
 ## What does not belong here
 - Network, storage, UI, or long-running service logic.
 - Repo-external orchestration for loading data or dispatching jobs.
-- Workspace-wide convention changes that belong in `proto-conventions`.
+- Workspace-wide convention changes that belong in `Proto-RepoTemplate`.
 
 ## Files To Read First
 - `src/sigma_bench_and_eval.nim`
