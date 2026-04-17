@@ -17,11 +17,11 @@ This repo is the reusable statistical-evaluation library for binary-sequence ana
 ## Files To Read First
 - `src/sigma_bench_and_eval.nim`
   - public export surface.
-- `src/sigma_bench_and_eval/suite.nim`
+- `src/protocols/suite.nim`
   - main suite orchestrator.
-- `src/sigma_bench_and_eval/types.nim`
+- `src/protocols/types.nim`
   - shared result and parameter types.
-- `src/sigma_bench_and_eval/benchmarks.nim`
+- `src/protocols/benchmarks.nim`
   - benchmark helpers and formatting.
 - `tests/test_smoke.nim`
   - baseline suite usage example.

@@ -15,11 +15,11 @@ NIST-style statistical test suite for binary sequences in Nim.
 ## Repo Layout
 - `src/sigma_bench_and_eval.nim`
   - public re-export surface for the library.
-- `src/sigma_bench_and_eval/types.nim`
+- `src/protocols/types.nim`
   - shared parameter and result types.
-- `src/sigma_bench_and_eval/suite.nim`
+- `src/protocols/suite.nim`
   - main suite orchestrator.
-- `src/sigma_bench_and_eval/*.nim`
+- `src/protocols/*.nim`
   - individual statistical tests and shared math/bit helpers.
 - `tests/`
   - smoke and benchmark-comparison coverage.

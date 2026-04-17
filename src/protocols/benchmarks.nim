@@ -5,7 +5,7 @@
 
 import std/strutils
 
-import fylgia_utils/time/sleep
+import protocols/time/sleep
 
 type
   BenchAlgo* = object

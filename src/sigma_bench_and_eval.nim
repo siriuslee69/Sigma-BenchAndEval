@@ -4,20 +4,20 @@
 # ============================================================
 
 import
-  ./sigma_bench_and_eval/constants,
-  ./sigma_bench_and_eval/types,
-  ./sigma_bench_and_eval/math_utils,
-  ./sigma_bench_and_eval/bits,
-  ./sigma_bench_and_eval/basic_tests,
-  ./sigma_bench_and_eval/patterns,
-  ./sigma_bench_and_eval/fft,
-  ./sigma_bench_and_eval/rank,
-  ./sigma_bench_and_eval/templates,
-  ./sigma_bench_and_eval/benchmarks,
-  ./sigma_bench_and_eval/linear_complexity,
-  ./sigma_bench_and_eval/universal,
-  ./sigma_bench_and_eval/excursions,
-  ./sigma_bench_and_eval/suite
+  ./protocols/constants,
+  ./protocols/types,
+  ./protocols/math_utils,
+  ./protocols/bits,
+  ./protocols/basic_tests,
+  ./protocols/patterns,
+  ./protocols/fft,
+  ./protocols/rank,
+  ./protocols/templates,
+  ./protocols/benchmarks,
+  ./protocols/linear_complexity,
+  ./protocols/universal,
+  ./protocols/excursions,
+  ./protocols/suite
 
 export
   constants,
